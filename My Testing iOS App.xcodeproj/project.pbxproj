@@ -242,7 +242,7 @@
 				TargetAttributes = {
 					DEB623101FFCB640000A5EF4 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					DEB623241FFCB640000A5EF4 = {
 						CreatedOnToolsVersion = 9.1;
@@ -623,13 +623,16 @@
 			baseConfigurationReference = 121163AFA096BAC4CCCCAA50 /* Pods-My Testing iOS App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = NHDNT88PG9;
 				INFOPLIST_FILE = "My Testing iOS App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "accedo.xg.test.app.My-Testing-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "462a9de5-f7bc-4e07-bcfa-b4fec4722f1b";
+				PROVISIONING_PROFILE_SPECIFIER = "Accedo AppCenter Test Adhoc Cert";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -640,13 +643,16 @@
 			baseConfigurationReference = 915CC3EE523A0D32EAECB0B1 /* Pods-My Testing iOS App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = NHDNT88PG9;
 				INFOPLIST_FILE = "My Testing iOS App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "accedo.xg.test.app.My-Testing-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "462a9de5-f7bc-4e07-bcfa-b4fec4722f1b";
+				PROVISIONING_PROFILE_SPECIFIER = "Accedo AppCenter Test Adhoc Cert";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
